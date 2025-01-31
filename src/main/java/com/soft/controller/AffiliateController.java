@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AffiliateController {
     @GetMapping("save")
     public String save(){
-
+     System.out.println("hi");
         return "success";
     }
 }
